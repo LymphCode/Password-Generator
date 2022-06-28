@@ -23,8 +23,10 @@
 
 ## Pictures of the random password generator
 
-![screenshot1]()
-![screenshot2]()
+![screenshot1](https://github.com/LymphCode/Password-Generator/blob/main/assets/images/Random%20Password%20Generator%20Screenshot%201.png)
+![screenshot2](https://github.com/LymphCode/Password-Generator/blob/main/assets/images/Random%20Password%20Generator%20Screenshot%202.png)
+
 
 ## Link to deployed application
 
+https://lymphcode.github.io/Password-Generator/
