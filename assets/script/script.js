@@ -1,3 +1,4 @@
+// These are the variables 
 var characterLength = 8;
 var choiceArray = [];
 
@@ -21,7 +22,7 @@ generateBtn.addEventListener("click", writePassword);
 
 // Write password to the #password input
 function writePassword() {
-  var correctPromts = getPrompts(); //returns true or false
+  var correctPromts = getPrompts();
   var passwordText = document.querySelector("#password");
 
   if (correctPromts) {
@@ -33,6 +34,7 @@ function writePassword() {
 
 }
 
+// this generates the password
 function generatePassword() {
   var password = '';
   for (var i = 0; i < characterLength; i++) {
@@ -42,6 +44,7 @@ function generatePassword() {
   return password;
 }
 
+// this gives us the prompts that when given said text/data.. Generates our password!
 function getPrompts() {
 
   choiceArray = [];
@@ -49,9 +52,6 @@ function getPrompts() {
   var characterLengthAlert = false;
 
   characterLength = parseInt(prompt('How many characters would you like in your password? (Must be 8-128 characters)'));
-
-
-  // add 'while' to characterLength alert.. "while(something){//code here}"
   
   while (!characterLengthAlert) {
     if (isNaN(characterLength) || characterLength < 8 || characterLength > 128) {
