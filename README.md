@@ -20,9 +20,11 @@
 
 - A password is generated that matches the selected criteriaN the password is generatedN the password is either displayed in an alert or - written to the page
 
+
 ## Pictures of the random password generator
 
-
+![screenshot1]()
+![screenshot2]()
 
 ## Link to deployed application
 
